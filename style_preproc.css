@@ -125,13 +125,12 @@
 }
 
 .general-block__crypto__head {
-  background: linear-gradient(90deg, rgb(48, 144, 209) 7%, rgba(15, 176, 150, 0.8156512605) 28%, rgb(127, 208, 171) 60%, rgb(79, 145, 209) 93%);
+  background: linear-gradient(90deg, rgb(27, 22, 52) 7%, rgba(24, 34, 43, 0.8156512605) 30%, rgb(47, 50, 57) 59%, rgb(31, 31, 69) 94%);
+  width: 1440px;
 }
 .general-block__crypto__head__header {
   height: 100px;
   display: flex;
-  justify-content: space-between;
-  border: 1px solid red;
   align-items: center;
   margin: 0 80px;
   color: #FFFFFF;
@@ -143,9 +142,46 @@
 .general-block__crypto__head__header button {
   margin-left: 40px;
   width: 130px;
-  height: 40px;
+  height: 32px;
   color: #FFFFFF;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgb(48, 209, 58) 7%, rgba(15, 176, 131, 0.8156512605) 33%, rgb(87, 214, 129) 66%, rgb(79, 209, 192) 95%);
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 1.75rem;
 }
 .general-block__crypto__head__header__btn {
   gap: 40px;
+}
+
+.general-block__crypto__head__main {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-left: 80px;
+}
+.general-block__crypto__head__main__title {
+  display: flex;
+  flex-direction: column;
+}
+.general-block__crypto__head__main__title span {
+  font-size: 64px;
+  line-height: 38.73px;
+  color: #E7E7E7;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.general-block__crypto__head__main__title small {
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+.general-block__crypto__head__main__title button {
+  width: 130px;
+  height: 32px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgb(48, 209, 58) 7%, rgba(15, 176, 131, 0.8156512605) 33%, rgb(87, 214, 129) 66%, rgb(79, 209, 192) 95%);
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 1.75rem;
 }/*# sourceMappingURL=style_preproc.css.map */
